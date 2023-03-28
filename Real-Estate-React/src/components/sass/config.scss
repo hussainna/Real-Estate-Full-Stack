@@ -1,0 +1,45 @@
+$orange:#ff5a3d;
+$Dblue:#0b2c3c;
+$Wblue:#F2F6F7;
+$Worange:#f5dedb;
+$dark:#071a1d;
+$description:#5d737e;
+$DarkDesc:#607580;
+$hero:#f2f6f7;
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+h1{
+    font-size: 40px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+@mixin flex($justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    text-align: center;
+}
+@mixin button ($back,$color,$padding){
+    background-color: $back;
+    color: $color;
+    padding: $padding;
+    transition: .2s ease;
+    border: none;
+    cursor: pointer;
+}
+@mixin grid($num) {
+    display: grid;
+    grid-template-columns:repeat($num,1fr);
+    grid-gap: 30px;
+}

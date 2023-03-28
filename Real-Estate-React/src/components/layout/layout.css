@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+.master{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.master .cont{
+    display: flex;
+}
+.lazyLoading{
+    margin-left: 45%;
+    margin-top: 20%;
+}

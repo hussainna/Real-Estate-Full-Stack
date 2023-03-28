@@ -1,0 +1,44 @@
+.featured{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.featuredItem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.featuredTitle{
+    font-size: 20px;
+}
+.featuredMounyContanier{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+
+}
+.featuredMouny{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featuredMouneyRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+.featuredIcon.negative{
+    color: red;
+}
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
